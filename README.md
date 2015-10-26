@@ -17,3 +17,5 @@ EN a Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes
 # The pin
 
 # Programming the ATTINY4313
+
+the project was inspired By TigerUp (tigeruppp?gmail?com) https://sites.google.com/site/tinymatrix/ 
