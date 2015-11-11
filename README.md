@@ -18,21 +18,22 @@ The Process
 
 ![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg)
 
-![Alt The result](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg )
-
+You can download the .dxf files from [here] (https://github.com/FablabTorino/tinyMatrix/tree/master/design/DXF).
  
 # The pin
 
 First thing to do is to build the structure following [this instructions](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg).
 
-Then to manipulate pins and leds you can have a look at [this scheme] (https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/PinsGrid.jpg) .
+Then to manipulate pins and leds you can have a look at [this scheme]
+(https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/PinsGrid.jpg) .
 
 
 
 
 # Programming the ATTINY4313
 
-In order to program the AT TINY 4313 you first need to install the ATTiny core in Arduino 1.6.4
+In order to program the AT TINY 4313 you first need to install the ATTiny core in Arduino 1.6.4.
+
 You can do that by following [this tutorial] (https://github.com/SpenceKonde/ATTinyCore)
 
 To connect the ATTiny to the Arduino board perhaps you can build [your own shield] (http://www.instructables.com/id/Arduino-ATtiny2313-Programming-Shield/step2/Prototype-and-Pinout/)
@@ -48,4 +49,4 @@ and a sketch to create new ones (Processing code). This last sketch will Serial-
 
 
 
-the project was inspired By TigerUp (tigeruppp?gmail?com) https://sites.google.com/site/tinymatrix/ and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino. 
+The project was inspired By TigerUp (tigeruppp?gmail?com) https://sites.google.com/site/tinymatrix/ and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino. 
