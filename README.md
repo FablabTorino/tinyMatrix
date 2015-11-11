@@ -59,23 +59,33 @@ You can download the .dxf files from [here] (https://github.com/FablabTorino/tin
 
 
 First thing to do is to build the structure following this instructions:
-
-
+</br>
+</br>
+</br>
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg " width="800" /> 
-
-
-
-
+</br>
+</br>
+</br>
 The whole process should look like this:
-
-
-
-
+</br>
+</br>
+</br>
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg"width="900" /> 
+</br>
+</br>
+</br>
 
 
-Then to manipulate pins and leds take a look at [this scheme]
-(https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/PinsGrid.jpg) .
+Then to manipulate pins and leds take a look at this scheme:
+</br>
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg"width="200" /> 
+</br>
+Green numbersrapresent the led-matrix's pin and red numbers are the ATTINY's ones.
+So, for example, if you want to turn the first led on (Up-Left) you have to set:
+
+pin15=HIGH;
+pin1=LOW;
+
 
 
 
