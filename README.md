@@ -51,27 +51,21 @@ now in the other tab create a 'case' in the switch function
 and you are done!
 
 
-# The Process
+# Creating the jewel
 
-
-
-
-
-
-You can download the .dxf files from [here] (https://github.com/FablabTorino/tinyMatrix/tree/master/design/DXF).
+You can download the .dxf files from [here] (https://github.com/FablabTorino/tinyMatrix/tree/master/design/DXF) or you can draw your own, just remember to use a 6mm .
  
 
 
-First thing to do is to build the structure following [this instructions](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg).
+First thing to do is to build the structure following this instructions:
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg " width="900" /> 
 
-Then to manipulate pins and leds you can have a look at [this scheme]
+The whole process should look like this:
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg"width="900" /> 
+
+
+Then to manipulate pins and leds take a look at [this scheme]
 (https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/PinsGrid.jpg) .
-
-
-
-
-
-
 
 
 
