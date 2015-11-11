@@ -77,7 +77,7 @@ The whole process should look like this:
 Then to manipulate pins and leds take a look at this scheme:
 </br>
 </br>
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/7.jpg"width="200" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/7.png"width="200" /> 
 </br>
 </br>
 Green numbersrapresent the led-matrix's pin and red numbers are the ATTINY's ones.
