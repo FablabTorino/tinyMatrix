@@ -1,7 +1,7 @@
 # TinyMatrix
 EN a Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes animations every time you press the button.
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg " width="300" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg " width="400" /> 
 
 # Programming the ATTINY4313
 
@@ -17,19 +17,21 @@ Now you can load Arduino's sketches.
 
 In this repository you will find a sketch to load some animation ([Arduino code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/arduino%20programming/LedMatrix_ATtiny%20))
 
-and a sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). This last sketch will Serial-print the code that you can copy and paste in Arduino.
+and a sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). 
+This last sketch will Serial-print the code that you can copy and paste in Arduino.
 
-To create new animations you have to play the processing program
+To create new animations you have to play the processing program.
+
 A window like this will open 
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png " width="200" />  
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png " width="160" />  
 
 Then you just draw your animation frame per frame. 
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="200" /> 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="200" />
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="200" />
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="200" />
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="160" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="160" />
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="160" />
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="160" />
 
 To save frames press 's' and when you finish press 'a' so you get the number of frames and the complete code.
 
@@ -44,7 +46,7 @@ and paste it in the Arduino's sketch
 
 now in the other tab create a 'case' in the switch function
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png " height="300" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png " height="200" /> 
 
 and you are done!
 
