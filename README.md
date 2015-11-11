@@ -14,13 +14,10 @@ EN a Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes
 
 # The pendant
 
-![Alt The result](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg )
+![Alt The result](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg"the result" )
 
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Totale.jpg)
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Saldature.jpg)
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/battery.jpg)
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/back-cover.jpg)
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/front.jpg)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg"The process")
+
  
 # The pin
 
