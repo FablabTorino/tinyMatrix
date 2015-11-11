@@ -80,7 +80,7 @@ Then to manipulate pins and leds take a look at this scheme:
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/7.png"width="200" /> 
 </br>
 </br>
-Green numbersrapresent the led-matrix's pin and red numbers are the ATTINY's ones.
+Green numbers rapresent the led-matrix's pin and red numbers are the ATTINY's ones.
 
 So, for example, if you want to turn the first led on (Up-Left) you have to set:
 
