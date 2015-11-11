@@ -61,7 +61,7 @@ You can download the .dxf files from [here] (https://github.com/FablabTorino/tin
 First thing to do is to build the structure following this instructions:
 
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg " width="900" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg " width="800" /> 
 
 
 
