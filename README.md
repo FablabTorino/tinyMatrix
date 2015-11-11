@@ -14,8 +14,27 @@ EN a Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes
 
 # The pendant
 
+![Alt The result](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg )
+
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Totale.jpg)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Saldature.jpg)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/battery.jpg)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/back-cover.jpg)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/front.jpg)
+ 
 # The pin
 
+
+
 # Programming the ATTINY4313
+
+In order to program the AT TINY 4313 you first need to install the ATTiny core in Arduino 1.6.4
+You can do that by following [this tutorial] (https://github.com/SpenceKonde/ATTinyCore)
+
+To connect the ATTiny to the Arduino board perhaps you can build [your own shield] (http://www.instructables.com/id/Arduino-ATtiny2313-Programming-Shield/step2/Prototype-and-Pinout/)
+
+Now you can load Arduino's sketches. 
+In this repository you will find a sketch to load some animation (Arduino code)
+and a sketch to create new ones (Processing code). This last sketch will Serial-print the code that you can copy and paste in Arduino.
 
 the project was inspired By TigerUp (tigeruppp?gmail?com) https://sites.google.com/site/tinymatrix/ and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino. 
