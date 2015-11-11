@@ -81,9 +81,11 @@ Then to manipulate pins and leds take a look at this scheme:
 </br>
 </br>
 Green numbersrapresent the led-matrix's pin and red numbers are the ATTINY's ones.
+
 So, for example, if you want to turn the first led on (Up-Left) you have to set:
 
 pin15=HIGH;
+</br>
 pin1=LOW;
 
 
