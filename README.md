@@ -14,12 +14,19 @@ EN a Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes
 
 # The pendant
 
-![Alt The result](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg"the result" )
+The Process
 
 ![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg)
 
+![Alt The result](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg )
+
  
 # The pin
+
+First thing to do is to build the structure following [this instructions](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg).
+
+Then to manipulate pins and leds you can have a look at [this scheme] (https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/PinsGrid.jpg) .
+
 
 
 
@@ -33,5 +40,12 @@ To connect the ATTiny to the Arduino board perhaps you can build [your own shiel
 Now you can load Arduino's sketches. 
 In this repository you will find a sketch to load some animation (Arduino code)
 and a sketch to create new ones (Processing code). This last sketch will Serial-print the code that you can copy and paste in Arduino.
+
+
+
+
+
+
+
 
 the project was inspired By TigerUp (tigeruppp?gmail?com) https://sites.google.com/site/tinymatrix/ and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino. 
