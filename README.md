@@ -39,8 +39,8 @@ You can do that by following [this tutorial] (https://github.com/SpenceKonde/ATT
 To connect the ATTiny to the Arduino board perhaps you can build [your own shield] (http://www.instructables.com/id/Arduino-ATtiny2313-Programming-Shield/step2/Prototype-and-Pinout/)
 
 Now you can load Arduino's sketches. 
-In this repository you will find a sketch to load some animation (Arduino code)
-and a sketch to create new ones (Processing code). This last sketch will Serial-print the code that you can copy and paste in Arduino.
+In this repository you will find a sketch to load some animation ([Arduino code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/arduino%20programming/LedMatrix_ATtiny%20))
+and a sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). This last sketch will Serial-print the code that you can copy and paste in Arduino.
 
 
 
@@ -49,4 +49,4 @@ and a sketch to create new ones (Processing code). This last sketch will Serial-
 
 
 
-The project was inspired By TigerUp (tigeruppp?gmail?com) https://sites.google.com/site/tinymatrix/ and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino. 
+The project was inspired By [TigerUp] (https://sites.google.com/site/tinymatrix/) and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino. 
