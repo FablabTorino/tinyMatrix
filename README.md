@@ -20,20 +20,20 @@ In this repository you will find a sketch to load some animation ([Arduino code]
 and a sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). This last sketch will Serial-print the code that you can copy and paste in Arduino.
 
 To create new animations you have to play the processing program
-A window like this will open ![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png =250x)
+A window like this will open ![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png ) { width: 200px; }
 
 Then you just draw your animation frame per frame. 
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png =250x)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png ) { width: 200px; }
 To save frames press 's' and when you finish press 'a' so you get the number of frames and the complete code.
 
 Now copy what you printed in the Serial
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/5.png =250x)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/5.png ) { width: 200px; }
 
 and paste it in the Arduino's sketch
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/1.png =250x)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/1.png ) { width: 200px; }
 
 now in the other tab create a 'case' in the switch function
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png =250x)
+![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png ) { width: 200px; }
 and you are done!
 
 
