@@ -9,7 +9,7 @@ In order to program the AT TINY 4313 you first need to install the ATTiny core i
 
 You can do that by following [this tutorial] (https://github.com/SpenceKonde/ATTinyCore)
 
-To connect the ATTINY to the Arduino board perhaps you can build [your own shield] (http://www.instructables.com/id/Arduino-ATtiny2313-Programming-Shield/step2/Prototype-and-Pinout/)
+To connect the ATTINY to the Arduino board perhaps you can build [your own shield] (http://www.instructables.com/id/Arduino-ATtiny2313-Programming-Shield/step2/Prototype-and-Pinout/).
 
 Now you can load Arduino's sketches. 
 
@@ -18,6 +18,7 @@ Now you can load Arduino's sketches.
 In this repository you will find a sketch to load some animation ([Arduino code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/arduino%20programming/LedMatrix_ATtiny%20))
 
 and a sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). 
+
 This last sketch will Serial-print the code that you can copy and paste in Arduino.
 
 To create new animations you have to play the processing program.
@@ -53,14 +54,23 @@ and you are done!
 
 # Creating the jewel
 
-You can download the .dxf files from [here] (https://github.com/FablabTorino/tinyMatrix/tree/master/design/DXF) or you can draw your own, just remember to use a 6mm .
+You can download the .dxf files from [here] (https://github.com/FablabTorino/tinyMatrix/tree/master/design/DXF) or you can draw your own, just remember to use a 6mm poplar plywood.
  
 
 
 First thing to do is to build the structure following this instructions:
+
+
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg " width="900" /> 
 
+
+
+
 The whole process should look like this:
+
+
+
+
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg"width="900" /> 
 
 
