@@ -1,7 +1,7 @@
 # TinyMatrix
 EN a Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes animations every time you press the button.
 
-![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg ) README.md
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg " width="300" /> 
 
 # Programming the ATTINY4313
 
@@ -20,26 +20,31 @@ In this repository you will find a sketch to load some animation ([Arduino code]
 and a sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). This last sketch will Serial-print the code that you can copy and paste in Arduino.
 
 To create new animations you have to play the processing program
-A window like this will open ![Alt The process](https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png ) 
+A window like this will open 
+
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png " width="200" />  
 
 Then you just draw your animation frame per frame. 
 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="200" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="200" />
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="200" />
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="200" />
 
 To save frames press 's' and when you finish press 'a' so you get the number of frames and the complete code.
 
 
 Now copy what you printed in the Serial
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/5.png " width="200" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/5.png " height="300" /> 
 
 and paste it in the Arduino's sketch
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/1.png " width="200" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/1.png " height="300" /> 
 
 now in the other tab create a 'case' in the switch function
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png " width="200" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png " height="300" /> 
 
 and you are done!
 
