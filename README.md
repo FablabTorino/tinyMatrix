@@ -1,5 +1,5 @@
 # TinyMatrix
-EN a Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes animations every time you press the button.
+A Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes animations every time you press the button.
 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg " width="400" /> 
 
@@ -15,11 +15,11 @@ Now you can load Arduino's sketches.
 
 # Loading sketches
 
-In this repository you will find a sketch to load some animation ([Arduino code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/arduino%20programming/LedMatrix_ATtiny%20))
+In this repository you will find an Arduino sketch to load some animation ([Arduino code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/arduino%20programming/LedMatrix_ATtiny%20))
 
-and a sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). 
+and a Processing sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). 
 
-This last sketch will Serial-print the code that you can copy and paste in Arduino.
+This last sketch will print on the console the code that you can copy and paste in Arduino.
 
 To create new animations you have to play the processing program.
 
@@ -27,34 +27,38 @@ A window like this will open
 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png " width="160" />  
 
-Then you just draw your animation frame per frame. 
+Then you just draw your animation frame by frame. 
 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="160" /> 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="160" />
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="160" />
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="160" />
 
-To save frames press 's' and when you finish press 'a' so you get the number of frames and the complete code.
+To save a new frame press 's', and when you are done press 'a' so you get the number of frames and the complete code.
 
 
-Now copy what you printed in the Serial
+Now copy what Processing printed to the console
 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/5.png " height="300" /> 
 
-and paste it in the Arduino's sketch
+and paste it in the Arduino sketch in the images.h file
 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/1.png " height="300" /> 
 
-now in the other tab create a 'case' in the switch function
+now in the void loop section of the Arduino sketch create a new 'case' in the switch function
 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png " height="200" /> 
+
+now you can upload the code to the ATTINY
 
 and you are done!
 
 
 # Creating the jewel
 
-You can download the .dxf files from [here] (https://github.com/FablabTorino/tinyMatrix/tree/master/design/DXF) or you can draw your own, just remember to use a 6mm poplar plywood.
+You can download the .dxf files from [here] (https://github.com/FablabTorino/tinyMatrix/tree/master/design/DXF) or you
+
+can draw your own, just remember to use a 6mm poplar plywood.
  
 
 
@@ -74,7 +78,9 @@ The whole process should look like this:
 </br>
 </br>
 </br>
-Then to manipulate pins and leds take a look at this scheme:
+
+## Notes about the wiring
+To manipulate pins and leds take a look at this scheme:
 </br>
 </br>
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/7.png"width="200" /> 
@@ -104,4 +110,6 @@ pin1=LOW;
 | 5X7 red matrix    | 1 | 160-1555-5-ND	| LTP-757KR |
 
 
-The project was inspired By [TigerUp] (https://sites.google.com/site/tinymatrix/) and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino. 
+#Credits
+
+The project was inspired By [TigerUp] (https://sites.google.com/site/tinymatrix/) and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino, further developed by Stefano Paradiso, Tommaso Laterza and Lorenzo romagnoli in 2015.
