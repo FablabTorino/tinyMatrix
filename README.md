@@ -1,7 +1,7 @@
 # TinyMatrix
 A Tiny Matrix, also called e-jewel, is a little electronic Jewel that changes animations every time you press the button.
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg " width="400" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/both.jpg " width="400" />
 
 # Programming the ATTINY4313
 
@@ -11,25 +11,25 @@ You can do that by following [this tutorial] (https://github.com/SpenceKonde/ATT
 
 To connect the ATTINY to the Arduino board perhaps you can build [your own shield] (http://www.instructables.com/id/Arduino-ATtiny2313-Programming-Shield/step2/Prototype-and-Pinout/).
 
-Now you can load Arduino's sketches. 
+Now you can load Arduino's sketches.
 
 # Loading sketches
 
 In this repository you will find an Arduino sketch to load some animation ([Arduino code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/arduino%20programming/LedMatrix_ATtiny%20))
 
-and a Processing sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)). 
+and a Processing sketch to create new ones ([Processing code](https://github.com/FablabTorino/tinyMatrix/tree/master/code/Processing%20sketch)).
 
 This last sketch will print on the console the code that you can copy and paste in Arduino.
 
 To create new animations you have to play the processing program.
 
-A window like this will open 
+A window like this will open
 
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png " width="160" />  
 
-Then you just draw your animation frame by frame. 
+Then you just draw your animation frame by frame.
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="160" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="160" />
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="160" />
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/3.png" width="160" />
 <img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/4.png" width="160" />
@@ -39,15 +39,15 @@ To save a new frame press 's', and when you are done press 'a' so you get the nu
 
 Now copy what Processing printed to the console
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/5.png " height="300" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/5.png " height="300" />
 
 and paste it in the Arduino sketch in the images.h file
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/1.png " height="300" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/1.png " height="300" />
 
 now in the void loop section of the Arduino sketch create a new 'case' in the switch function
 
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png " height="200" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/6.png " height="200" />
 
 now you can upload the code to the ATTINY
 
@@ -59,14 +59,14 @@ and you are done!
 You can download the .dxf files from [here] (https://github.com/FablabTorino/tinyMatrix/tree/master/design/DXF) or you
 
 can draw your own, just remember to use a 6mm poplar plywood.
- 
+
 
 
 First thing to do is to build the structure following this instructions:
 </br>
 </br>
 </br>
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg " width="800" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/tinyPage_2.jpg " width="800" />
 </br>
 </br>
 </br>
@@ -74,7 +74,7 @@ The whole process should look like this:
 </br>
 </br>
 </br>
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg"width="900" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/Process.jpg"width="900" />
 </br>
 </br>
 </br>
@@ -83,7 +83,7 @@ The whole process should look like this:
 To manipulate pins and leds take a look at this scheme:
 </br>
 </br>
-<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/7.png"width="200" /> 
+<img src="https://github.com/FablabTorino/tinyMatrix/blob/master/design/pendant/7.png"width="200" />
 </br>
 </br>
 Green numbers rapresent the led-matrix's pin and red numbers are the ATTINY's ones.
@@ -102,7 +102,7 @@ pin1=LOW;
 
 | part		        | Quantity | Part number | Distributor Part Number |  LINK|
 | -------------     |:--------:| :--------:| :--------:| :--------:|
-| pushbutton        | 1 | 450-1650-ND | FSM4JH | 
+| pushbutton        | 1 | 450-1650-ND | FSM4JH |
 | coin battery      | 1 | P189-ND | CR2032 |
 | battery  holder   | 1 | BC2032-F1-ND	| BC2032-F1 |
 | 100K resistors    | 1 | CF18JT100KCT-ND | CF18JT100K |
@@ -113,3 +113,14 @@ pin1=LOW;
 #Credits
 
 The project was inspired By [TigerUp] (https://sites.google.com/site/tinymatrix/) and customized by Franco Magni and Federico Vanzati in 2012, at Fablab Torino, further developed by Stefano Paradiso, Tommaso Laterza and Lorenzo romagnoli in 2015.
+
+
+# Lasercut Case made Paso & Giò
+
+Added a cat-shaped box. You can find it in /design/DXF/TinyMatrixGatto.dxf
+
+<img src="http://i.imgur.com/U8Xnjmq.jpg" height="200" />
+
+<img src="http://i.imgur.com/pex6yCW.jpg" height="200" />
+
+<img src="http://i.imgur.com/YiS2iPg.jpg" height="200" />
