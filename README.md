@@ -119,4 +119,8 @@ The project was inspired By [TigerUp] (https://sites.google.com/site/tinymatrix/
 
 Added a cat-shaped box. You can find it in /design/DXF/TinyMatrixGatto.dxf
 
-<img src="http://imgur.com/a/bPmmB" height="300" />
+<img src="http://i.imgur.com/U8Xnjmq.jpg" height="200" />
+
+<img src="http://i.imgur.com/pex6yCW.jpg" height="200" />
+
+<img src="http://i.imgur.com/YiS2iPg.jpg" height="200" />
